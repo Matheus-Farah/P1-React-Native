@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "p1-Clone",
+    "slug": "p1-Clone",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
