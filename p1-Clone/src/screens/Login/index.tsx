@@ -6,9 +6,10 @@ import {
   TextInput,
   TouchableOpacity,
   View,
+  StatusBar,
 } from "react-native";
 import { styles } from "./styles";
-import { Ionicons } from "@expo/vector-icons";
+// import { Ionicons } from "@expo/vector-icons";
 import LogoPinterest from "../../assets/images/Logo-Pinterest.png";
 import facebook from "../../assets/images/facebook.png";
 import google from "../../assets/images/google.png";
@@ -20,6 +21,11 @@ export const Login = () => {
 
   return (
     <View style={styles.container}>
+      <StatusBar
+        barStyle="light-content"
+        hidden={true}
+        backgroundColor="#000"
+      />
       <Image source={LogoPinterest} style={styles.image} />
 
       <Text style={styles.title}>Bem-vindo ao Pinterest</Text>

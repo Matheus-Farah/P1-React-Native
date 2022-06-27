@@ -7,4 +7,15 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
+    navbar: {
+        flex: 1,
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'flex-end',
+        justifyContent: 'space-between',
+        marginLeft: 30,
+        marginRight: 30,
+        marginBottom: 13
+
+    },
 });
