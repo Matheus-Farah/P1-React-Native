@@ -1,11 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { Inicio } from './src/screens/Inicio';
+import { Login } from './src/screens/Login';
+import { Pin } from './src/screens/Pin';
 
 
 const App = () => {
   return (
-    <Inicio/>
+    <Pin/>
   );
 };
 

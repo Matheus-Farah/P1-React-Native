@@ -12,16 +12,23 @@ export const styles = StyleSheet.create({
         color: '#fff',
         fontSize: 18,
         padding: Platform.OS === 'ios' ? 15 : 10,
-        marginTop: 30,
         borderRadius: 15,
-        width: '85%'
     },
+    inputContainer: {
+        alignItems: 'flex-start'
+    },
+
     title: {
         color: '#fff',
         fontSize: 30,
         fontWeight: 'bold',
     },
     texto: {
+        color: '#fff',
+        fontSize: 18,
+        marginTop: 10,
+    },
+    textoInput: {
         color: '#fff',
         fontSize: 18,
         marginTop: 20,
@@ -33,12 +40,22 @@ export const styles = StyleSheet.create({
         textAlign: 'center',
         width: '50%'
     },
+    infoLink: {
+        color: '#fff',
+        fontSize: 12,
+        marginTop: 5,
+        textAlign: 'center',
+        width: '50%'
+    },
+
     button: {
         backgroundColor: '#FF0000',
-        padding: 15,
-        borderRadius: 7,
+        padding: 10,
+        borderRadius: 100,
         alignItems: 'center',
+        width: '75%',
         marginTop: 20
+        
     },
     buttonFacebook: {
         backgroundColor: '#5A66FB',
@@ -55,7 +72,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         marginTop: 20,
         flexDirection: 'row',
-        width: '66%'
+        width: '62%'
     },
     buttonText: {
         color: '#FFF',
@@ -67,13 +84,10 @@ export const styles = StyleSheet.create({
         fontSize: 17,
         fontWeight: 'bold'
     },
-    icon: {
-        width: '15%',
-        color: '#',
-    },
+
     image: {
-        width: 80,
-        height: 80,
+        width: 50,
+        height: 50,
         marginBottom: 10,
     },
     imageFacebook: {
@@ -82,8 +96,14 @@ export const styles = StyleSheet.create({
     imageGoogle: {
         marginRight: 15
     },
+
     hyperlinkStyle: {
         color: 'blue',
         textDecorationLine: 'underline'
     },
+    line: {
+        textAlign: 'center',
+        color: '#696969',
+        marginTop: 5
+    }
 });
