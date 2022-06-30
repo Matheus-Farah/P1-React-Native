@@ -5,7 +5,7 @@ import { Pin } from './src/screens/Pin';
 
 const App = () => {
   return (
-    <Pin/>
+    <Login/>
   );
 };
 

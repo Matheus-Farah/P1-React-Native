@@ -21,7 +21,7 @@ export const Login = () => {
   return (
     <View style={styles.container}>
       <StatusBar
-        barStyle="light-content"
+        barStyle="dark-content"
         hidden={true}
         backgroundColor="#000"
       />

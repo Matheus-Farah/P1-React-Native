@@ -59,20 +59,23 @@ export const styles = StyleSheet.create({
     },
     buttonFacebook: {
         backgroundColor: '#5A66FB',
-        padding: 15,
-        borderRadius: 7,
+        padding: 10,
+        borderRadius: 200,
         alignItems: 'center',
-        marginTop: 20,
+        justifyContent: "center",
+        marginTop: 10,
+        width: "75%",
         flexDirection: 'row'
     },
     buttonGoogle: {
         backgroundColor: '#fff',
-        padding: 15,
-        borderRadius: 7,
+        padding: 10,
+        borderRadius: 200,
         alignItems: 'center',
+        justifyContent: "center",
         marginTop: 20,
         flexDirection: 'row',
-        width: '62%'
+        width: '75%'
     },
     buttonText: {
         color: '#FFF',
